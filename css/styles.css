@@ -48,7 +48,7 @@ img {
 /* CONTAINER */
 .container {
     width: 100%;
-    max-width: 1420px;
+    max-width: 1440px;
     padding-left: 20px;
     padding-right: 20px;
     margin-right: auto;
@@ -141,4 +141,32 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */
+}
+
+
+/* PRODUCT */
+.products {
+    width: 1400px;
+    margin: 0;
+    margin-top: 20px;
+    background-image: url("../img/products-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.products-heading {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-variant: all-small-caps;
+}
+
+.products-content {
+    display: flex;
+    margin-top: 80px;;
 }
